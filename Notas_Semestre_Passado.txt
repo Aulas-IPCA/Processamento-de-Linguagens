@@ -1,3 +1,5 @@
-F�sica: 12
-Programa��o Orientada a Objetos: 18
+Física: 12
+Programação Orientada a Objetos: 18
 Projeto de Engenharia de Software: 15
+Análise de Modelação de Software: 11
+Armazenamento de Dados: 9

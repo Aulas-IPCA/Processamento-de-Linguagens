@@ -3,14 +3,16 @@ import pandas as pd
 notas_UCS = {
     "Física": 12,
     "Programação Orientada a Objetos": 18,
-    "Projeto de Engenharia de Software": 15
+    "Projeto de Engenharia de Software": 15,
+    "Análise de Modelação de Software": 11,
+    "Armazenamento de Dados": 9
 }
 
 media = sum(notas_UCS.values()) / len(notas_UCS)
 
 print(f"Média das notas do último semestre: {media}")
 
-with open("Notas_Semestre_Passado.txt", "w") as file:
+with open("Notas_Semestre_Passado.txt", "w", encoding="utf-8") as file:
     for disciplina, nota in notas_UCS.items():
         file.write(f"{disciplina}: {nota}\n")
 

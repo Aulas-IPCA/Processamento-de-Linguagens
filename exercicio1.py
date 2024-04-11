@@ -19,6 +19,10 @@ products : list = [
     }
 ]
 
+products.insert(1, {"product_id" : "999", "product_name" : "feijao", "validate_date" : "10-10-2024", "price" : 3})
+
+print(products)
+
 prod_name = list()
 
 for product in products:
